@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# Data and models (exclude large files, keep if needed)
+data/
+models/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+
+# If you use pipenv
+Pipfile.lock
+
+# Git LFS pointer files (if you later enable LFS)
+*.gitattributes
